@@ -1,0 +1,26 @@
+# Build
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# STM32CubeIDE / Eclipse
+.settings/
+.metadata/
+*.launch
+RemoteSystemsTempFiles/
+
+# CubeMX yedekleri
+*.ioc.bak
+*.bak
+Drivers/**/*.bak
+
+# OS
+.DS_Store
+Thumbs.db
