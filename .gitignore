@@ -1,26 +1,15 @@
-# Build
-Debug/
-Release/
-*.o
-*.d
-*.su
-*.elf
-*.bin
-*.hex
-*.map
-*.list
+# Her şeyi ignore et
+*
 
-# STM32CubeIDE / Eclipse
-.settings/
-.metadata/
-*.launch
-RemoteSystemsTempFiles/
+# Klasörlere girebilmek için bunları geri aç
+!Core/
+Core/*
+!Core/Src/
+Core/Src/*
 
-# CubeMX yedekleri
-*.ioc.bak
-*.bak
-Drivers/**/*.bak
+# Sadece bu iki dosya kalsın
+!Core/Src/main.c
+!Core/Src/flash_islemleri.c
 
-# OS
-.DS_Store
-Thumbs.db
+# .gitignore kendisi de kalsın
+!.gitignore
